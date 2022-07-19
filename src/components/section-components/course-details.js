@@ -294,31 +294,31 @@ class CourseDetails extends Component {
 			        <div className="td-sidebar">
 			          <div className="widget widget_feature">
 			            <h4 className="widget-title">Course Features</h4>                                 
-			            <ul>
+			            {/* <ul>
 			              <li><i className="fa fa-user" /><span>Enrolled :</span> 1200 students</li>
 			              <li><i className="fa fa-clock-o" /><span>Duration :</span> 2 hours</li>
 			              <li><i className="fa fa-clipboard" /><span>Lectures :</span> 8</li>
 			              <li><i className="fa fa-clone" /><span>Categories:</span> Technology</li>
 			              <li><i className="fa fa-tags" /><span>Tags:</span> Android, JavaScript</li>
 			              <li><i className="fa fa-clipboard" /><span>Instructor:</span> Ethan Dean</li>
-			            </ul>
-			            <div className="price-wrap text-center">
+			            </ul> */}
+			            {/* <div className="price-wrap text-center">
 			              <h5>Price:<span>$54.00</span></h5>
 			              <a className="btn btn-base btn-radius" to="/course-details">ENROLL COURSE</a>
-			            </div>
+			            </div> */}
 			          </div>
 			          <div className="widget widget_catagory">
 			            <h4 className="widget-title">Trending Course</h4>                                 
 			            <div className="single-course-inner">
-			              <div className="thumb">
+			              {/* <div className="thumb">
 			                <img src={publicUrl+"assets/img/course/1.png"} alt="img" />
-			              </div>
+			              </div> */}
 			              <div className="details">
 			                <div className="details-inner">
-			                  <div className="emt-user">
+			                  {/* <div className="emt-user">
 			                    <span className="u-thumb"><img src={publicUrl+"assets/img/author/1.png"} alt="img" /></span>
 			                    <span className="align-self-center">Nancy Reyes</span>
-			                  </div>
+			                  </div> */}
 			                  <h6><a href="course-details.html">Fox nymphs grab quick-jived waltz. Brick quiz whangs</a></h6>
 			                </div>
 			                <div className="emt-course-meta">
@@ -345,15 +345,15 @@ class CourseDetails extends Component {
 			    <div className="row justify-content-center pd-top-100">
 			      <div className="col-lg-4 col-md-6">
 			        <div className="single-course-inner">
-			          <div className="thumb">
+			          {/* <div className="thumb">
 			            <img src={publicUrl+"assets/img/course/1.png"} alt="img" />
-			          </div>
+			          </div> */}
 			          <div className="details">
 			            <div className="details-inner">
-			              <div className="emt-user">
+			              {/* <div className="emt-user">
 			                <span className="u-thumb"><img src={publicUrl+"assets/img/author/1.png"} alt="img" /></span>
 			                <span className="align-self-center">Nancy Reyes</span>
-			              </div>
+			              </div> */}
 			              <h6><Link to="/course-details">Fox nymphs grab quick-jived waltz. Brick quiz whangs</Link></h6>
 			            </div>
 			            <div className="emt-course-meta">

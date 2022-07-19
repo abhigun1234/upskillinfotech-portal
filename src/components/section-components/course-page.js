@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
-
+import getApiCall from '..//..//service/httpUtilService'
 class CoursePage extends Component {
+
+	getCourseDetails(){
+	   let data=getApiCall()
+	   console.log("data",data)
+	}
+	componentDidMount(){
+		let data=getApiCall()
+	   console.log("data",data)
+
+	}
 
     render() {
 
@@ -15,7 +25,7 @@ class CoursePage extends Component {
 			        <div className="row go-top">
 			          <div className="col-md-6">
 			            <div className="single-course-inner">
-			              <div className="thumb">
+			              {/* <div className="thumb">
 			                <img src={publicUrl+"assets/img/course/1.png"} alt="img" />
 			              </div>
 			              <div className="details">
@@ -41,12 +51,12 @@ class CoursePage extends Component {
 			                    </div>
 			                  </div>
 			                </div>
-			              </div>
+			              </div> */}
 			            </div>
 			          </div>
 			          <div className="col-md-6">
 			            <div className="single-course-inner">
-			              <div className="thumb">
+			              {/* <div className="thumb">
 			                <img src={publicUrl+"assets/img/course/2.png"} alt="img" />
 			              </div>
 			              <div className="details">
@@ -72,12 +82,12 @@ class CoursePage extends Component {
 			                    </div>
 			                  </div>
 			                </div>
-			              </div>
+			              </div> */}
 			            </div>
 			          </div>
 			          <div className="col-md-6">
 			            <div className="single-course-inner">
-			              <div className="thumb">
+			              {/* <div className="thumb">
 			                <img src={publicUrl+"assets/img/course/3.png"} alt="img" />
 			              </div>
 			              <div className="details">
@@ -103,12 +113,12 @@ class CoursePage extends Component {
 			                    </div>
 			                  </div>
 			                </div>
-			              </div>
+			              </div> */}
 			            </div>
 			          </div>
 			          <div className="col-md-6">
 			            <div className="single-course-inner">
-			              <div className="thumb">
+			              {/* <div className="thumb">
 			                <img src={publicUrl+"assets/img/course/4.png"} alt="img" />
 			              </div>
 			              <div className="details">
@@ -134,12 +144,12 @@ class CoursePage extends Component {
 			                    </div>
 			                  </div>
 			                </div>
-			              </div>
+			              </div> */}
 			            </div>
 			          </div>
 			          <div className="col-md-6">
 			            <div className="single-course-inner">
-			              <div className="thumb">
+			              {/* <div className="thumb">
 			                <img src={publicUrl+"assets/img/course/5.png"} alt="img" />
 			              </div>
 			              <div className="details">
@@ -165,12 +175,12 @@ class CoursePage extends Component {
 			                    </div>
 			                  </div>
 			                </div>
-			              </div>
+			              </div> */}
 			            </div>
 			          </div>
 			          <div className="col-md-6">
 			            <div className="single-course-inner">
-			              <div className="thumb">
+			              {/* <div className="thumb">
 			                <img src={publicUrl+"assets/img/course/6.png"} alt="img" />
 			              </div>
 			              <div className="details">
@@ -196,12 +206,12 @@ class CoursePage extends Component {
 			                    </div>
 			                  </div>
 			                </div>
-			              </div>
+			              </div> */}
 			            </div>
 			          </div>
 			          <div className="col-md-6">
 			            <div className="single-course-inner">
-			              <div className="thumb">
+			              {/* <div className="thumb">
 			                <img src={publicUrl+"assets/img/course/7.png"} alt="img" />
 			              </div>
 			              <div className="details">
@@ -227,12 +237,12 @@ class CoursePage extends Component {
 			                    </div>
 			                  </div>
 			                </div>
-			              </div>
+			              </div> */}
 			            </div>
 			          </div>
 			          <div className="col-md-6">
 			            <div className="single-course-inner">
-			              <div className="thumb">
+			              {/* <div className="thumb">
 			                <img src={publicUrl+"assets/img/course/8.png"} alt="img" />
 			              </div>
 			              <div className="details">
@@ -258,7 +268,7 @@ class CoursePage extends Component {
 			                    </div>
 			                  </div>
 			                </div>
-			              </div>
+			              </div> */}
 			            </div>
 			          </div>
 			        </div>
@@ -348,5 +358,6 @@ class CoursePage extends Component {
 
         }
 }
+// 	
 
 export default CoursePage
